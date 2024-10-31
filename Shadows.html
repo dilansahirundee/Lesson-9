@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        text-align: center;
+        font-family: monospace;
+      }
+
+      #text {
+        text-shadow: 2px 2px 1px red;
+        /*(right-ofset)px (left-ofset)px (fade)px color*/
+      }
+      #box {
+        box-shadow: px px px red;
+        /*(right-ofset)px (left-ofset)px (fade)px color*/
+      }
+
+      #indent {
+        text-indent: 50% //16px or -3em;;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="text">We can use text-shadow to use shadow to itself</h1>
+    <h1 id="box">or use box-shadow to shadow the eliment</h1>
+    <div>
+      <p>this is an example of text-insent</p>
+      <p id="indent">this is an example of text-indent.</p>
+    </div>
+  </body>
+</html>
